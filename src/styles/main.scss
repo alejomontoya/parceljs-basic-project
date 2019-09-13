@@ -1,0 +1,59 @@
+/**Declare variables **/
+$elements_heigth: 200px;
+$color_one: red;
+$color_two: blue;
+$color_three: #f4f5;
+$color_four: aqua;
+$color_five: brown;
+$color_six: peru;
+
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    'item-1 item-1'
+    'item-2 item-3'
+    'item-4 item-5'
+    'item-4 item-6';
+    grid-gap: 10px;
+}
+.item {
+    min-height: $elements_heigth;
+}
+.item-1 {
+    grid-area: item-1;
+    background-color: $color_one;
+}
+.item-2 {
+    grid-area: item-2;
+    background-color: $color_two;
+}
+.item-3 {
+    grid-area: item-3;
+    background-color: $color_three;
+}
+.item-4 {
+    grid-area: item-4;
+    background-color: $color_four;
+}
+.item-5 {
+    grid-area: item-5;
+    background-color: $color_five;
+}
+.item-6 {
+    grid-area: item-6;
+    background-color: $color_six;
+}
+
+@media (max-width: 600px) {
+    .container {
+        grid-template-areas: 
+        'item-1 item-1'
+        'item-2 item-2'
+        'item-3 item-3'
+        'item-4 item-4'
+        'item-5 item-5'
+        'item-6 item-6';
+
+    }
+  }
