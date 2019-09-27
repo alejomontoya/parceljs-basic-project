@@ -10,7 +10,7 @@ This is a basic project with parceljs implementing:<br>
 <p>Clone it </p>
 <code>git clone https://github.com/alejomontoya/parceljs-basic-project.git</code> 
 <br>
-
+<br>
 <p>Install dependencies</p>
 
 <code>npm install</code>
