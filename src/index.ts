@@ -1,5 +1,5 @@
 import './styles/main.scss';
 
-import {hello} from './module.js';
+import {hello} from './module';
 
 console.log(hello());
