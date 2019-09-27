@@ -6,13 +6,10 @@ html(lang='es')
     meta(http-equiv='X-UA-Compatible', content='ie=edge')
     title Parcel
   body
+    - var i= [1,2,3,4,5,6]
     div.container
-        div.item.item-1
-        div.item.item-2
-        div.item.item-3
-        div.item.item-4
-        div.item.item-5
-        div.item.item-6
-
+      each val in i
+            div(class="item .item-" + val)  
+    
 
     script(src='./index.js')
