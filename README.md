@@ -3,7 +3,7 @@ This is a basic project with parceljs implementing:<br>
 <ul>
         <li>sass 🕶</li>
         <li>pug 🐶</li>
-        <li>module javascript 🛠</li>
+        <li>typescript 🛠</li>
 </ul>
 <br>
 
